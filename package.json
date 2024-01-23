@@ -8,7 +8,10 @@
     "build": "parcel build \"index.html\"",
     "test": "jest"
   },
- 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VKoder/FoodBazaar-.git"
+  },
   "keywords": [
     "react",
     "tailwind",
