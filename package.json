@@ -2,7 +2,7 @@
   "name": "food-bazaar",
   "version": "1.0.0",
   "description": "Food Bazaar is the Food & Grocery Delivery Web app made by using React Js, TailwindCSS and Redux Tool Kit ",
-  "main": "App.js",
+ 
   "scripts": {
     "start": "parcel \"index.html\"",
     "build": "parcel build \"index.html\"",
