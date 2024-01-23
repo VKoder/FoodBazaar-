@@ -1,0 +1,16 @@
+{
+  "name": "food-bazaar",
+  "version": "1.0.0",
+  "description": "Food Bazaar is the Food & Grocery Delivery Web app ",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "tailwind",
+    "redux"
+  ],
+  "author": "vivek khule",
+  "license": "ISC"
+}
