@@ -8,8 +8,7 @@ import GroceryMid5 from "./GroceryMid5";
 import GroceryMid6 from "./GroceryMid6";
 import GroceryMid7 from "./GroceryMid7";
 import GroceryCategory from "./GroceryCategory";
-import prop5 from "../Images/props5.jpg"
-import prop6 from "../Images/props6.jpg"
+
 
 const Grocery = () => {
   return (

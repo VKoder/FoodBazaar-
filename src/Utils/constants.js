@@ -9,6 +9,8 @@ export const REST_API =
 
 export const CORS_API = "https://strange-fawn-gabardine.cyclic.app/api/proxy/swiggy/dapi/";
 
+export const CORS_FOR_GROCERY = "https://thingproxy.freeboard.io";
+
 export const ITEM_API =
   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.447523597754362&lng=73.85565485805273&collection=";
 

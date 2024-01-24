@@ -18,7 +18,7 @@ const Card = (props) => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparen opacity-55 rounded-xl">
           <div className="absolute bottom-0 left-0 right-0 text-white text-center py-2 px-2">
-            <p className=" text-start text-lg font-black leading-6 text-white">
+            <p className=" text-start text-lg font-black leading-6 text-white opacity-100">
               {header} {subHeader}
             </p>
           </div>

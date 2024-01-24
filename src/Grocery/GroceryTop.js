@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CORS_API } from "../Utils/constants";
+import { CORS_FOR_GROCERY } from "../Utils/constants";
 import GroceryCompo from "./GroceryCompo";
 import GroceryShimmer from "./GroceryShimmer";
 
@@ -13,7 +13,7 @@ const GroceryMid = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      CORS_API +
+      CORS_FOR_GROCERY +
         "https://www.swiggy.com/api/instamart/home?pageNo=1&layoutId=3173&storeId=1383574&clientId=INSTAMART-APP"
     );
     const json = await data.json();
