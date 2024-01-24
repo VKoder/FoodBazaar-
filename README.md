@@ -36,6 +36,18 @@
 
 > ### 🚧 Error 404 Page: In the event of a page not found or API failure, Food Bazaar gracefully presents a user-friendly Error 404 page, ensuring a smooth and informative experience for users.
 
+---
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Click on the below given link to get the preview.
+
+ <a href="https://food-bazaar-ten.vercel.app/" target="_blank">
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+</a>
+
+---
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
