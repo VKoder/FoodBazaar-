@@ -15,26 +15,30 @@
 
 ---
 <!-- Features -->
+<br></br>
+ ## 🎯 Key Features <a name="key-features"></a>
 
-## 🎯 Key Features <a name="key-features"></a>
+> ### 🌏 Real-time Swiggy API Integration: Food Bazaar provides users with up-to-the-minute information on menus, availability, and promotions, ensuring accurate and reliable details for informed dining choices.<br></br>
 
-> ### 🎥 Dynamic Content: Food Bazaar ensures a vibrant user experience by dynamically updating content, offering real-time information on menus, availability, and promotions, keeping users engaged with the latest offerings.
+> ### 🚀 Lazy Loading & Chunking: Food Bazaar implements lazy loading and chunking for optimization, reducing app loading time significantly.<br></br>
 
-> ### 📌 Seamless Navigation: With React Router DOM, the app provides a smooth and intuitive navigation experience, enabling users to effortlessly explore different sections, from discovering restaurants to tracking orders, without disruptions.
+> ### ⚡ Custom Hook: Food Bazaar utilizes custom hooks, enhancing code reusability and maintainability, allowing for a more efficient development process and a streamlined architecture.<br></br>
 
-> ### 🌏 Swiggy Live APIs Integration for generating data about restaurants: Leveraging live Swiggy APIs, Food Bazaar delivers up-to-the-minute data on restaurants, empowering users with accurate and reliable information to make informed choices when selecting their preferred dining options.
+> ### 🔐 State Management with Redux: Food Bazaar ensures a scalable and organized application state with Redux, streamlining data flow and providing a centralized management system for a seamless user experience.<br></br>
 
-> ### 🔐 State Management with Redux: Food Bazaar ensures a scalable and organized application state with Redux, streamlining data flow and providing a centralized management system for a seamless user experience.
+> ### 🔍 Search Functionality: Easily find your desired restaurants or dishes with Food Bazaar's intuitive search feature.<br></br>
 
-> ### 🚀 Lazy Loading & Chunking: Food Bazaar implements lazy loading and chunking for optimization, reducing app loading time significantly.
+> ### 🎯 Filtering Options: Tailor your browsing experience with filtering options, allowing you to discover restaurants based on specific categories or preferences.<br></br>
 
-> ### ⚡ Custom Hook: Food Bazaar utilizes custom hooks, enhancing code reusability and maintainability, allowing for a more efficient development process and a streamlined architecture.
+> ### 📌 Seamless Navigation: With React Router DOM, the app provides a smooth and intuitive navigation experience, enabling users to effortlessly explore different sections, from discovering restaurants to tracking orders, without disruptions.<br></br>
 
-> ### 🚀 Optimized API Requests: The app minimizes network overhead by optimizing API requests, ensuring efficient communication between the front-end and Swiggy's live APIs, resulting in faster data retrieval and improved user experience.
+> ### 📜 Detailed Restaurant Information: Get comprehensive details about each restaurant, including menus, offers, and more, providing you with the information needed to make informed choices.<br></br>
 
-> ### ✨ Shimmer UI: Food Bazaar enhances user interface transitions with shimmer UI, providing a visually appealing loading effect during data retrieval, creating a polished and engaging experience for users while waiting for content to load.
+> ### ✨ Shimmer UI: Food Bazaar enhances user interface transitions with shimmer UI, providing a visually appealing loading effect during data retrieval, creating a polished and engaging experience for users while waiting for content to load.<br></br>
 
-> ### 🚧 Error 404 Page: In the event of a page not found or API failure, Food Bazaar gracefully presents a user-friendly Error 404 page, ensuring a smooth and informative experience for users.
+> ### 🚧 Error 404 Page: In the event of a page not found or API failure, Food Bazaar gracefully presents a user-friendly Error 404 page, ensuring a smooth and informative experience for users.<br></br>
+
+> ### 📱 Completely Responsive: Enjoy a seamless experience across various devices as Food Bazaar ensures complete responsiveness, adapting to different screen sizes and resolutions.<br></br>
 
 ---
 
@@ -51,9 +55,9 @@
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> "If you enjoy this project, I'd greatly appreciate your support. Consider sharing it with others who might find it useful. Your contribution helps me grow and improve. 🚀, Don't Hesitate for starring this GitHub repository! "
+> "If you find value in this project, I would sincerely appreciate your support. Feel free to share it with others who may benefit from it. Your contribution is crucial for my growth and enhancement. 🚀, Please don't hesitate to star this GitHub repository!"
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
