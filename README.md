@@ -1,4 +1,4 @@
-<div align="center" id="#readme-top">
+<div align="center">
   <img src="https://foodbazaarr.netlify.app/Logo.6c3b39eb.png" style="width:120px"></img>
   <h1><b>🚀Food Bazaar | Your Food Hub</b></h3>
 </div>
@@ -7,7 +7,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🚀 Food Bazaar <a name="about-project"></a>
+# 💖 Food Bazaar <a name="about-project"></a>
 
 > ## Introducing Food Bazaar, a food ordering app powered by React.js that effortlessly links users with their favorite dishes. What sets it apart? Integration with the live Swiggy API and Swiggy Instamart API for groceries. With Redux handling state, React Router DOM ensuring easy navigation, and Tailwind CSS crafting a visually appealing interface, alongside Lazy Loading. Also, it utilizes Parcel for efficient bundling. Explore the features below.
 
@@ -16,7 +16,7 @@
 ---
 <!-- Features -->
 <br></br>
- ## 🎯 Key Features <a name="key-features"></a>
+ ## 🎯 Key Features 
 
 > ### 🌏 Real-time Swiggy API Integration: Food Bazaar provides users with up-to-the-minute information on menus, availability, and promotions, ensuring accurate and reliable details for informed dining choices.<br></br>
 
@@ -41,59 +41,53 @@
 > ### 📱 Completely Responsive: Enjoy a seamless experience across various devices as Food Bazaar ensures complete responsiveness, adapting to different screen sizes and resolutions.<br></br>
 
 ---
+<br></br>
+## 🚀 Live Demo 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Click on the below given link to get the preview.
+- Click Below
 
  <a href="https://food-bazaar-ten.vercel.app/" target="_blank">
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </a>
 
 ---
+<br></br>
+## 🎯 Future or Upcoming Features
+> Multi-Language Functionality: 🌐 Food Bazaar plans to introduce multi-language functionality, providing users with the flexibility to navigate and use the app in their preferred language, enhancing accessibility for a diverse user base.
+
+> Dark Mode: 🌙 A sleek and energy-efficient Dark Mode is on the horizon for Food Bazaar, offering users an alternative visual experience that reduces eye strain during low-light conditions.
+
+> Location Setup: 📍 Enhancing user convenience, Food Bazaar aims to implement location setup features, allowing users to seamlessly set and customize their preferred locations for accurate and personalized service.
+
+> Enhancing Add to Cart Section: 🛒 The Add to Cart section is in line for improvements, ensuring a more intuitive and user-friendly experience when selecting and managing items for purchase.
+
+> Payment: 💳 Food Bazaar is gearing up to introduce a seamless payment experience, providing users with secure and efficient payment options for a hassle-free checkout process.
+
+> Login/Sign-in: 🔐 Food Bazaar is working on enhancing security and user experience with a dedicated login/sign-in feature, allowing users to create accounts and access personalized services.
+
+---
+<br></br>
+> ## 🔧 Food Bazaar's Tech Stack:
+
+- React: Powering the dynamic and interactive user interface.
+
+- Parcel: Efficiently bundling and managing packages for streamlined development.
+
+- Redux Toolkit: Managing application state for a scalable and organized architecture.
+
+- Tailwind CSS: Crafting a visually appealing and responsive design.
+
+- React Router: Enabling seamless navigation within the application.
 
 
-## ⭐️ Show your support <a name="support"></a>
+---
+<br></br>
+## ⭐️ Show your support 
 
 > "If you find value in this project, I would sincerely appreciate your support. Feel free to share it with others who may benefit from it. Your contribution is crucial for my growth and enhancement. 🚀, Please don't hesitate to star this GitHub repository!"
 
+---
 
+<br></br>
 
-
-
-
-
-
-Feed detail update
-Feed post
-Soni Kumari
-Soni KumariSoni Kumari
-(She/Her) • 1st(She/Her) • 1st
-Frontend Developer | React JS | JavaScript | open-source contributorFrontend Developer | React JS | JavaScript | open-source contributor
-2d • 2d •
-
-Hello everyone! 👋
-
-I hope you all are doing well, and wish you a very happy new year in advance. ✨
-
-I am excited to share my first React project, a Swiggy clone that I have created. I've implemented all the concepts learned from #namastereact by Akshay Saini 🚀
-
-❇️ Tech stack:
-React.js as a UI library
-Redux toolkit for state management
-Webpack for bundling
-React Router DOM for dynamic routing
-Tailwind CSS for styling
-
-❇️ Key Features:
-Real-time data fetching using Swiggy's API
-Shimmer UI for a better user experience
-Lazy Loading/Code Splitting for faster load time
-Search Functionality
-Filtering Options
-Detailed Restaurant Information
-Add to Cart
-Completely Responsive
-Error Handling
-404 page
-and many more...
+<div align="center"><h1>Food Bazaar is made with ❤️</h1> </div>
