@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { CORS_API, ITEM_API } from "../Utils/constants";
+import { ITEM_API } from "../Utils/constants";
 import { useParams } from "react-router-dom";
 import ShimmerUI from "../Shimmers/ShimmerUI";
 import { CARD_IMG_URL } from "../Utils/constants";
@@ -16,7 +16,7 @@ const ItemsMenu = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(CORS_API + ITEM_API + id);
+    const data = await fetch(ITEM_API + id);
     const json = await data.json();
     setrestaurantList(json?.data?.cards);
     setrestaurantListName(json?.data?.cards[0]?.card.card);
@@ -27,7 +27,7 @@ const ItemsMenu = () => {
   }
 
   if (restaurantList === undefined) {
-    return <SomethingWrong/>;
+    return <SomethingWrong />;
   }
   return (
     <div className="restraunt">

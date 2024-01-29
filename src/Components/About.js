@@ -1,6 +1,4 @@
 import useOnlineStatus from "../Utils/useOnlineStatus";
-import { useEffect } from "react";
-import { CORS_API } from "../Utils/constants";
 
 const About = ()=>  {
   const OnlineStatus = useOnlineStatus();

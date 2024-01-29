@@ -33,21 +33,21 @@ const Header = () => {
             <ul className="flex items-center justify-center flex-row">
               <Link to={"/offers"}>
                 <div className={linkCss}>
-                  <i class="ri-gift-line text-lg lg:text-base lg:pr-1 lg:font-semibold pr-2 font-bold  "></i>
+                  <i className="ri-gift-line text-lg lg:text-base lg:pr-1 lg:font-semibold pr-2 font-bold  "></i>
                   <span className={spanCsss}>Offers</span>
                 </div>
               </Link>
 
               <Link to={"/contact"}>
                 <div className={linkCss}>
-                  <i class="ri-customer-service-line lg:text-base lg:pr-1 lg:font-semibold text-lg pr-2 font-bold  "></i>
+                  <i className="ri-customer-service-line lg:text-base lg:pr-1 lg:font-semibold text-lg pr-2 font-bold  "></i>
                   <span className={spanCsss}>Help</span>
                 </div>
               </Link>
 
               <Link to={"/cart"}>
                 <div className={linkCss}>
-                  <i class="ri-shopping-cart-2-line lg:text-base lg:pr-1 lg:font-semibold text-lg pr-2 font-bold  "></i>
+                  <i className="ri-shopping-cart-2-line lg:text-base lg:pr-1 lg:font-semibold text-lg pr-2 font-bold  "></i>
                   <span className={spanCsss}>Cart ({cartItems.length})</span>
                 </div>
               </Link>
@@ -61,11 +61,11 @@ const Header = () => {
           <div className="lg:hidden">
             {menu ? (
               <button onClick={handlemenu}>
-                <i class="ri-close-fill text-xl font-bold"></i>
+                <i className="ri-close-fill text-xl font-bold"></i>
               </button>
             ) : (
               <button onClick={handlemenu}>
-                <i class="ri-menu-line text-xl font-bold"></i>
+                <i className="ri-menu-line text-xl font-bold"></i>
               </button>
             )}
           </div>

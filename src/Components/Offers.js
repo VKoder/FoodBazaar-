@@ -1,11 +1,8 @@
 import Card from "./Card";
 import { useEffect, useState } from "react";
-import ShimmerUI from "../Shimmers/ShimmerUI";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../Utils/useOnlineStatus";
-import { CORS_API } from "../Utils/constants";
 import { REST_API } from "../Utils/constants";
-import CuisinesCards from "./CuisinesCards";
 import SomethingWrong from "../Utils/SomethingWrong";
 import LoadingScreen from "../Utils/LoadingScreen";
 
@@ -25,7 +22,7 @@ const Offers = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(CORS_API + REST_API);
+    const data = await fetch(REST_API);
     const json = await data.json();
 
     setrestaurantList(
@@ -103,7 +100,7 @@ const Offers = () => {
             className="bg-transparent border-2 sm:hidden shadow-md border-solid border-zinc-300 px-2 text-xs lg:text-base lg:px-3.5 py-1 lg:py-1.5 rounded-2xl lg:rounded-3xl mr-2 lg:mr-4"
             onClick={filterToggle}
           >
-            <i class="ri-equalizer-fill"></i>
+            <i className="ri-equalizer-fill"></i>
           </button>
           {filter && (
             <div className="absolute top-40 rounded-lg bg-white shadow-sm border-l-2 py-3 px-2 z-10 border-orange-400">

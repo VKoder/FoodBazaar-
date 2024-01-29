@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { CORS_API } from "../Utils/constants";
 import GroceryCompo from "./GroceryCompo";
 import GroceryShimmer from "./GroceryShimmer";
 

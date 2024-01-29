@@ -38,7 +38,7 @@ const GroceryData = () => {
       <div className="fixed text-left rounded-b-lg shadow-lg top-0 w-full z-20 bg-white lg:px-36 px-6 md:px-20 lg:py-5 md:py-4 py-2">
         <Link to={"/grocery"}>
           <span className="lg:text-2xl md:text-xl text-lg cursor-pointer hover:text-orange-400 lg:pr-3 pr-2 md:pr-3 text-gray-800">
-            <i class="ri-arrow-left-line"></i>
+            <i className="ri-arrow-left-line"></i>
           </span>
         </Link>
         <span className="lg:text-xl md:text-xl text-lg font-bold  text-gray-800">
