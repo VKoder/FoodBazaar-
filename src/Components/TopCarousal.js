@@ -1,9 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Carousal1 } from "./Carousal";
-
 import { REST_API } from "../Utils/constants";
-import { CORS_API } from "../Utils/constants";
-
 
 const TopCarousal = () => {
   const [carausaldata, setcarausaldata] = useState(null);
@@ -23,10 +20,10 @@ const TopCarousal = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(CORS_API + REST_API);
+    const data = await fetch(REST_API);
     const json = await data.json();
     setcarausaldata(json?.data?.cards?.[0]?.card?.card?.gridElements?.info);
-    console.log(json)
+    console.log(json);
   };
 
   if (carausaldata === null) {
@@ -42,9 +39,7 @@ const TopCarousal = () => {
 
       <div className="slider__content">
         {carausaldata?.map((rest) => (
-
           <Carousal1 key={rest.id} restData={rest} />
-        
         ))}
       </div>
     </div>

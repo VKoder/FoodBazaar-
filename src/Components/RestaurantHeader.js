@@ -1,6 +1,5 @@
 
 import { CARD_IMG_URL } from "../Utils/constants";
-import { CORS_API } from "../Utils/constants";
 const RestaurantHeader = ({ restInfo }) => {
   //Destructing
   const {

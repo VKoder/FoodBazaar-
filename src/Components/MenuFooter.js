@@ -16,21 +16,21 @@ const MenuFooter = () => {
 
       <Link to={"/offers"}>
         <div className={linkCss}>
-          <i class="ri-gift-line text-xl font-bold  "></i>
+          <i className="ri-gift-line text-xl font-bold  "></i>
           <span className={spanCsss}>Offers</span>
         </div>
       </Link>
 
       <Link to={"/contact"}>
         <div className={linkCss}>
-          <i class="ri-customer-service-line text-xl font-bold  "></i>
+          <i className="ri-customer-service-line text-xl font-bold  "></i>
           <span className={spanCsss}>Contact</span>
         </div>
       </Link>
 
       <Link to={"/cart"}>
         <div className={linkCss}>
-          <i class="ri-shopping-cart-2-line text-xl  font-bold  "></i>
+          <i className="ri-shopping-cart-2-line text-xl  font-bold  "></i>
           <span className={spanCsss}>Cart</span>
         </div>
       </Link>

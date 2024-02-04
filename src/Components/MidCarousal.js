@@ -1,7 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Carousal1 } from "./Carousal";
 import { REST_API } from "../Utils/constants";
-import { CORS_API } from "../Utils/constants";
 import ShimmerMidCarousal from "../Shimmers/ShimmerMidCarousal";
 
 const MidCarousal = () => {
@@ -23,7 +22,7 @@ const MidCarousal = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(CORS_API + REST_API);
+    const data = await fetch(REST_API);
     const json = await data.json();
     setcarausal1data(
       json?.data?.cards[0]?.card?.card?.imageGridCards?.info ||

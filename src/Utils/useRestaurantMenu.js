@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { REST_MENU_API } from "../Utils/constants";
-import { CORS_API } from "../Utils/constants";
 import { useEffect } from "react";
 
 const useRestaurantMenu = (id) => {
@@ -16,7 +15,7 @@ const useRestaurantMenu = (id) => {
 
   //ASYNC (CB Func) to fetch the data
   const fetchData = async () => {
-    const data = await fetch(CORS_API + REST_MENU_API + id);
+    const data = await fetch(REST_MENU_API + id);
     const json = await data.json();
     const Category =
       json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
@@ -40,7 +39,6 @@ const useRestaurantMenu = (id) => {
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.offers ||
         json?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.offers
     );
-   
   };
   return { restInfo, restMenu, restOff };
 };

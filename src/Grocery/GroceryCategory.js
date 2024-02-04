@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { CORS_API } from "../Utils/constants";
 import { CARD_IMG_URL } from "../Utils/constants";
 
 const GroceryCategory = () => {

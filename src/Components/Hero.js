@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import ShimmerUI from "../Shimmers/ShimmerUI";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../Utils/useOnlineStatus";
-import { CORS_API } from "../Utils/constants";
 import { REST_API } from "../Utils/constants";
 import CuisinesCards from "./CuisinesCards";
 import SomethingWrong from "../Utils/SomethingWrong";
@@ -25,7 +24,7 @@ const Hero = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(CORS_API + REST_API);
+    const data = await fetch(REST_API);
     const json = await data.json();
 
     setrestaurantList(
@@ -80,9 +79,9 @@ const Hero = () => {
             onClick={filterToggle}
           >
             {filter ? (
-              <i class="ri-equalizer-fill"></i>
+              <i className="ri-equalizer-fill"></i>
             ) : (
-              <i class="ri-search-line"></i>
+              <i className="ri-search-line"></i>
             )}
           </button>
           {!filter && (
