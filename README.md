@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://foodbazaarr.netlify.app/Logo.6c3b39eb.png" style="width:120px"></img>
-  <h1><b>🚀Food Bazaar | Your Food Hub</b></h3>
+  <h1><b>🚀Food Bazaar | Your Foody Hub</b></h3>
 </div>
 
 
