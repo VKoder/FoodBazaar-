@@ -4,7 +4,6 @@
 </div>
 
 
-
 <!-- PROJECT DESCRIPTION -->
 
 # 💖 Food Bazaar 
